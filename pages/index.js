@@ -61,7 +61,7 @@ class Index extends React.Component {
             "orderNo": new Date().getTime().toString()
         }
         _this.setState({ loading: true });
-        walletOnlinePay(params).then(data => {
+        walletOnlinePay(params).then(data => {     // 获取唤醒支付参数，jssdk唤起参数说明请参考极易付接口文档
             var req = {
                 appId: data['appId'],
                 timeStamp: data['timeStamp'],
