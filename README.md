@@ -1,5 +1,5 @@
 # red-packet-qr-code-react-demo
-#### 聚合支付webview react開發代碼案例
+##### Uepay钱支付案例
 ##### 开发环境：Reat
 ##### UI: antd-moblie
 ##### uepa钱包SDK：https://www.npmjs.com/package/uepay-wallet-js-sdk （SDK安装说明，接口使用请参考该网站）
@@ -10,8 +10,8 @@
 3. npm run dev 运行
 
 分别执行以下命令
-1. `git clone https://github.com/Jamin-Deng/uepay-wallet-sdk-react-demo.git`
-1. `$ cd  uepay-wallet-sdk-react-demo`
+1. `git clone https://github.com/uepay/red-packet-qr-code-react-demo.git`
+1. `$ cd  red-packet-qr-code-react-demo`
 1. `$ npm i 安装必须有的nodejs环境`
 1. `$ npm run dev`
 
@@ -58,3 +58,5 @@ paySdk.payment(req);
 build里面参数为支付结果回调函数，支付成功res返回{'ret_code':'complete','ret_msg':'successful'}JOSN字符串，支付失败res返回{'ret_code':'fail','ret_msg':'cancel'}JOSN字符串。
 
 req为支付信息参数对象，结果为appId（分配给商户的）、timeStamp（时间戳）、nonceStr（由服务器生产的随机串，用于验证前后端交互的一致性）、prepayid（预支付订单的传递订单号）、signType（签名散列算法，现在固定为'MD5'）、paySign（验签参数）
+
+ 
