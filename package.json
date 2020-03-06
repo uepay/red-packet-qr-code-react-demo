@@ -1,0 +1,33 @@
+{
+    "name": "uepay-wallet-js-sdk-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "cross-env NODE_ENV=production node server.js",
+        "pm2-start": "pm2 start ./config/pro.config.js",
+        "pm2-stop": "pm2 stop ./config/pro.config.js"
+    },
+    "author": "chkui",
+    "license": "MIT",
+    "dependencies": {
+        "antd-mobile": "^2.3.1",
+        "express": "^4.17.1",
+        "next": "^9.1.1",
+        "react": "^16.11.0",
+        "react-dom": "^16.11.0",
+        "uepay-wallet-js-sdk": "^1.0.1"
+    },
+    "devDependencies": {
+        "@zeit/next-css": "^1.0.1",
+        "@zeit/next-sass": "^1.0.1",
+        "@zeit/next-less": "^1.0.1",
+        "cross-env": "^6.0.3",
+        "babel-plugin-import": "^1.12.2",
+        "next-compose-plugins": "^2.2.0",
+        "file-loader": "^4.0.0",
+        "node-sass": "^4.11.0"
+    }
+}
