@@ -28,6 +28,6 @@
         "babel-plugin-import": "^1.12.2",
         "next-compose-plugins": "^2.2.0",
         "file-loader": "^4.0.0",
-        "node-sass": "^4.11.0"
+        "node-sass": "^7.0.0"
     }
 }
